@@ -10,7 +10,6 @@ $comment = new Comment($db);
 // get posted data
 $data = json_decode(file_get_contents("php://input"));
   
-echo $data->posted_at;
 // make sure data is not empty
 if(
     !empty($data->name) &&
@@ -44,8 +43,7 @@ if(
         // tell the user
         echo json_encode(array("message" => "Unable to create comment."));
     }
-}
-  
+} 
 // tell the user data is incomplete
 else{
   

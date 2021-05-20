@@ -80,26 +80,6 @@ class News
       $stmt->execute();
     }
 
-    // prepare query
-    // $stmt = $this->conn->prepare($query);
-
-    // // sanitize
-    // $this->tag_id = htmlspecialchars(strip_tags($this->tag_id));
-    // $this->id = htmlspecialchars(strip_tags($this->id));
-
-    // // bind values
-    // $stmt->bindParam(":tag_id", $this->tag_id);
-    // $stmt->bindParam(":news_id", $this->id);
-
-
-    // $stmt->bindParam(":posted_at", $this->posted_at);
-
-    // execute query
-    // if ($stmt->execute()) {
-    //   return true;
-    // }
-
-    // return false;
     return true;
   }
 

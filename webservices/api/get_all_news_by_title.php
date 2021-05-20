@@ -1,6 +1,5 @@
 <?php
-// session_start();
-// Headers
+
 header('Access-Control-Allow-Origin: *');
 header('Content-Type: application/json');
 
@@ -9,28 +8,28 @@ include_once '../models/News.php';
 
 $title= $_GET['title'];
 
-// $_SESSION['title'] = $title;
 
 $page= $_GET['page'];
+
 // Instantiate DB & connect
 $database = new Database();
 $db = $database->connect();
 
-// Instantiate blog post object
+// Instantiate blog news object
 $news = new News($db);
 
-// Blog post query
+// news query
 $resultA = $news->read_all_news_by_title($title);
-// Get row count
+
 $num = $resultA->rowCount();
+
 $limit = 5;
 $total_page = ceil($num / $limit);
-//xem trang có vượt giới hạn không:
-if (isset($_GET["page"])) $page = $_GET["page"]; //nếu biến $_GET["page"] tồn tại thì trang hiện tại là trang $_GET["page"]
-if ($page < 1) $page = 1; //nếu trang hiện tại nhỏ hơn 1 thì gán bằng 1
-if ($page > $total_page) {$page = $total_page;} //nếu trang hiện tại vượt quá số trang được chia thì sẽ bằng trang cuối cùng
 
-//tính start (vị trí bản ghi sẽ bắt đầu lấy):
+if (isset($_GET["page"])) $page = $_GET["page"];
+if ($page < 1) $page = 1;
+if ($page > $total_page) {$page = $total_page;}
+
 $start = ($page - 1) * $limit;
 
 
