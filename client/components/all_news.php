@@ -19,8 +19,12 @@ $total_page = $result[0]['total_page'];
 <?php foreach ($result as $key => $value) : ?>
     <div class="case">
         <div class="row">
-            <div class=" d-flex">
-                <div class=" col-lg-10  text w-100 pl-md-3">
+            <div class="col-md-6 col-lg-6 col-xl-6 d-flex">
+                <a href='news_single.php?id=<?php echo $value['id']; ?>' class="img w-100 mb-3 mb-md-0" style="background-image: url('images/news-pics/pic (<?php echo $value['pic']; ?>).jpg');">
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-6 col-xl-6 d-flex">
+                <div class="text w-100 pl-md-3">
                     <span class="subheading"><?php echo $value['author']; ?> </span>
                     <div class="meta">
                         <?php $date = explode('-', $value['created_date']); ?>
@@ -35,10 +39,7 @@ $total_page = $result[0]['total_page'];
                     <h3 class="heading mb-3"><a href='news_single.php?id=<?php echo $value['id']; ?>'><?php echo $value['title']; ?></a></h3>
                     <p><?php echo $value['short_intro']; ?></p>
                     <p> <a href='news_single.php?id=<?php echo $value['id']; ?>' class="btn-custom"><span class="ion-ios-arrow-round-forward mr-3"></span>Read more</a></p>
-                    <div class="col-md-6 col-lg-6 col-xl-6 d-flex">
-                <a href='news_single.php?id=<?php echo $value['id']; ?>' class="img w-100 mb-3 mb-md-0" style="background-image: url('images/news-pics/pic (<?php echo $value['pic']; ?>).jpg');">
-                </a>
-            </div>
+
 
 
                 </div>

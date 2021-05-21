@@ -17,10 +17,7 @@ $resultT = json_decode($responseT, true);
 ?>
 <?php include('components/related_news.php') ?>
 
-<div class="sidebar-box ftco-animate" style="
-    padding: 15px;
-    border-radius: 10px;">
-
+<div class="sidebar-box ftco-animate">
     <div class="categories">
         <h3>Categories</h3>
         <?php foreach ($resultC as $key => $value) : ?>
@@ -28,12 +25,11 @@ $resultT = json_decode($responseT, true);
         <?php endforeach; ?>
     </div>
 </div>
+
 <div class="card ">
-<div class="card-body ">        
-<div class="sidebar-box ftco-animate " style="
-    padding: 15px;
-    border-radius: 10px;">
-    <h3 style="color: grey;">New tags</h3>
+<div class="card-body ">
+    <div class="card-header ftco-animate">
+    <h4 style="color: grey;">New Tags</h4>
     <div class="tagcloud">
         <?php 
         foreach ($resultT as $key => $value) : ?>
@@ -43,5 +39,4 @@ $resultT = json_decode($responseT, true);
 </div>
 </div>
 </div>
-
 

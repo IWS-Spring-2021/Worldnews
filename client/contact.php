@@ -17,7 +17,7 @@
           <p><span>Address:</span> KM9, Nguyen Trai St., Hanoi</p>
         </div>
         <div class="col-md-4">
-          <p><span>Youtube</span> <a href="https://www.youtube.com/watch?v=G7gHafQLJ0g"> CodeDemo</a></p>
+          <p><span>Youtube</span> <a href="https://www.youtube.com/watch?v=eZBVN4XztJk"> CodeDemo</a></p>
         </div>
         <!-- <div class="col-md-3">
           <p><span>Email:</span> <a href="mailto:info@yoursite.com">CodeForFun@email.com</a></p>
@@ -29,22 +29,7 @@
     </div>
   </section>
 
-  <footer class="ftco-footer ftco-bg-dark ftco-section">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 text-center">
-
-          <p>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            Copyright &copy;<script>
-              document.write(new Date().getFullYear());
-            </script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-          </p>
-        </div>
-      </div>
-    </div>
-  </footer>
+  
 
 
 

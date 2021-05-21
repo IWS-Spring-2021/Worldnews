@@ -9,6 +9,7 @@ $result = json_decode($response, true);
 
 ?>
 
+
 <div class="card ">
 <div class="card-body ">
     <div class="card-header ftco-animate">

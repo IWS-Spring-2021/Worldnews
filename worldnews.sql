@@ -52,27 +52,15 @@ CREATE TABLE `comment` (
   `id` int(10) NOT NULL,
   `name` text NOT NULL,
   `comment` text NOT NULL,
-  `news_id` int(10) NOT NULL
+  `news_id` int(10) NOT NULL,
+    `posted_at` date NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `comment`
 --
 
-INSERT INTO `comment` (`id`, `name`, `comment`, `news_id`) VALUES
-(1, 'Huong', 'I wanna listen to this song!', 2),
-(2, 'Hue', 'That kind of song is out-of-date!', 2),
-(3, 'Quynh', 'Sound interesting huh?', 1),
-(4, 'Hue', 'What a talented writer!', 3),
-(5, 'Hien', 'Good!', 36),
-(6, 'Chien', 'Amazing!', 7),
-(7, 'An', 'WOW', 27),
-(8, 'Lan', 'Good Job', 19),
-(9, 'Linh', 'Not bad!', 5),
-(10, 'Tuan', 'Beautiful', 31),
-(11, 'Quynh', 'Hahaha', 18),
-(19, 'Phuong An', 'Wow', 18),
-(20, 'Phuong An', 'I like it!', 24);
+
 
 -- --------------------------------------------------------
 

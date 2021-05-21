@@ -6,270 +6,137 @@
                 <div class="col-md-12">
                     <div class="overview-wrap">
                         <h2 class="title-1">overview</h2>
-                        <button class="au-btn au-btn-icon au-btn--blue">
-                            <i class="zmdi zmdi-plus"></i>add item</button>
+                        <!-- <button class="au-btn au-btn-icon au-btn--blue">
+                            <i class="zmdi zmdi-plus"></i>add item</button> -->
                     </div>
                 </div>
             </div>
-            <div class="row m-t-25">
-                <div class="col-sm-6 col-lg-3">
-                    <div class="overview-item overview-item--c1">
-                        <div class="overview__inner">
-                            <div class="overview-box clearfix">
-                                <div class="icon">
-                                    <i class="zmdi zmdi-account-o"></i>
-                                </div>
-                                <div class="text">
-                                    <h2>10368</h2>
-                                    <span>members online</span>
-                                </div>
-                            </div>
-                            <div class="overview-chart">
-                                <canvas id="widgetChart1"></canvas>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-3">
-                    <div class="overview-item overview-item--c2">
-                        <div class="overview__inner">
-                            <div class="overview-box clearfix">
-                                <div class="icon">
-                                    <i class="zmdi zmdi-shopping-cart"></i>
-                                </div>
-                                <div class="text">
-                                    <h2>388,688</h2>
-                                    <span>items solid</span>
-                                </div>
-                            </div>
-                            <div class="overview-chart">
-                                <canvas id="widgetChart2"></canvas>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-3">
-                    <div class="overview-item overview-item--c3">
-                        <div class="overview__inner">
-                            <div class="overview-box clearfix">
-                                <div class="icon">
-                                    <i class="zmdi zmdi-calendar-note"></i>
-                                </div>
-                                <div class="text">
-                                    <h2>1,086</h2>
-                                    <span>this week</span>
-                                </div>
-                            </div>
-                            <div class="overview-chart">
-                                <canvas id="widgetChart3"></canvas>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-3">
-                    <div class="overview-item overview-item--c4">
-                        <div class="overview__inner">
-                            <div class="overview-box clearfix">
-                                <div class="icon">
-                                    <i class="zmdi zmdi-money"></i>
-                                </div>
-                                <div class="text">
-                                    <h2>$1,060,386</h2>
-                                    <span>total earnings</span>
-                                </div>
-                            </div>
-                            <div class="overview-chart">
-                                <canvas id="widgetChart4"></canvas>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="au-card recent-report">
-                        <div class="au-card-inner">
-                            <h3 class="title-2">recent reports</h3>
-                            <div class="chart-info">
-                                <div class="chart-info__left">
-                                    <div class="chart-note">
-                                        <span class="dot dot--blue"></span>
-                                        <span>products</span>
-                                    </div>
-                                    <div class="chart-note mr-0">
-                                        <span class="dot dot--green"></span>
-                                        <span>services</span>
-                                    </div>
-                                </div>
-                                <div class="chart-info__right">
-                                    <div class="chart-statis">
-                                        <span class="index incre">
-                                            <i class="zmdi zmdi-long-arrow-up"></i>25%</span>
-                                        <span class="label">products</span>
-                                    </div>
-                                    <div class="chart-statis mr-0">
-                                        <span class="index decre">
-                                            <i class="zmdi zmdi-long-arrow-down"></i>10%</span>
-                                        <span class="label">services</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="recent-report__chart">
-                                <canvas id="recent-rep-chart"></canvas>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="au-card chart-percent-card">
-                        <div class="au-card-inner">
-                            <h3 class="title-2 tm-b-5">char by %</h3>
-                            <div class="row no-gutters">
-                                <div class="col-xl-6">
-                                    <div class="chart-note-wrap">
-                                        <div class="chart-note mr-0 d-block">
-                                            <span class="dot dot--blue"></span>
-                                            <span>products</span>
-                                        </div>
-                                        <div class="chart-note mr-0 d-block">
-                                            <span class="dot dot--red"></span>
-                                            <span>services</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-6">
-                                    <div class="percent-chart">
-                                        <canvas id="percent-chart"></canvas>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+           
             <div class="row">
                 <div class="col-lg-9">
-                    <h2 class="title-1 m-b-25">Earnings By Items</h2>
+                    <h2 class="title-1 m-b-25">News Reports</h2>
                     <div class="table-responsive table--no-card m-b-40">
                         <table class="table table-borderless table-striped table-earning">
                             <thead>
                                 <tr>
-                                    <th>date</th>
-                                    <th>order ID</th>
-                                    <th>name</th>
-                                    <th class="text-right">price</th>
-                                    <th class="text-right">quantity</th>
-                                    <th class="text-right">total</th>
+                                    <th>Date</th>
+                                    <th>ID</th>
+                                    <th>Title</th>
+                                    <th class="text-right">Author</th>
+                                    <th class="text-right">Category</th>
+                                    <th class="text-right">Tag</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>2018-09-29 05:57</td>
+                                    <td>2021-05-18 05:57</td>
                                     <td>100398</td>
-                                    <td>iPhone X 64Gb Grey</td>
-                                    <td class="text-right">$999.00</td>
-                                    <td class="text-right">1</td>
-                                    <td class="text-right">$999.00</td>
+                                    <td>Machine learning (AI) accurately predicts cardiac arrest risk.</td>
+                                    <td class="text-right">John</td>
+                                    <td class="text-right">Health</td>
+                                    <td class="text-right">Covid-19</td>
                                 </tr>
                                 <tr>
-                                    <td>2018-09-28 01:22</td>
+                                    <td>2021-05-17 01:22</td>
                                     <td>100397</td>
-                                    <td>Samsung S8 Black</td>
-                                    <td class="text-right">$756.00</td>
-                                    <td class="text-right">1</td>
-                                    <td class="text-right">$756.00</td>
+                                    <td>Son Tung M-TP sets new Vietnam record on YouTube</td>
+                                    <td class="text-right">Hoang Lam</td>
+                                    <td class="text-right">Music</td>
+                                    <td class="text-right">VietNam</td>
                                 </tr>
                                 <tr>
-                                    <td>2018-09-27 02:12</td>
+                                    <td>2021-05-17 02:12</td>
                                     <td>100396</td>
-                                    <td>Game Console Controller</td>
-                                    <td class="text-right">$22.00</td>
-                                    <td class="text-right">2</td>
-                                    <td class="text-right">$44.00</td>
+                                    <td>Taylor Swift Notches Another Week at Number One on Artists 500 Chart</td>
+                                    <td class="text-right">Hamosin</td>
+                                    <td class="text-right">Music</td>
+                                    <td class="text-right">US</td>
                                 </tr>
                                 <tr>
-                                    <td>2018-09-26 23:06</td>
+                                    <td>2021-05-16 23:06</td>
                                     <td>100395</td>
-                                    <td>iPhone X 256Gb Black</td>
-                                    <td class="text-right">$1199.00</td>
-                                    <td class="text-right">1</td>
-                                    <td class="text-right">$1199.00</td>
+                                    <td>Vietnam to buy 31 million Pfizer doses in second half of 2021</td>
+                                    <td class="text-right">Huu Bao/td>
+                                    <td class="text-right">Health</td>
+                                    <td class="text-right">Covid-19, VietNam</td>
                                 </tr>
                                 <tr>
-                                    <td>2018-09-25 19:03</td>
+                                    <td>2021-05-15 19:03</td>
                                     <td>100393</td>
-                                    <td>USB 3.0 Cable</td>
-                                    <td class="text-right">$10.00</td>
-                                    <td class="text-right">3</td>
-                                    <td class="text-right">$30.00</td>
+                                    <td>Vingroup to officially launch the region's leading "Sleepless City" model</td>
+                                    <td class="text-right">Minh An</td>
+                                    <td class="text-right">Travel</td>
+                                    <td class="text-right">Lanscape</td>
                                 </tr>
                                 <tr>
-                                    <td>2018-09-29 05:57</td>
+                                    <td>2021-05-14 05:59</td>
                                     <td>100392</td>
-                                    <td>Smartwatch 4.0 LTE Wifi</td>
-                                    <td class="text-right">$199.00</td>
-                                    <td class="text-right">6</td>
-                                    <td class="text-right">$1494.00</td>
+                                    <td>THE 30 BEST INDOOR PLANTS FOR APARTMENTS TO BUY ONLINE</td>
+                                    <td class="text-right">Victoria</td>
+                                    <td class="text-right">Lifestyle</td>
+                                    <td class="text-right">Tips</td>
                                 </tr>
                                 <tr>
-                                    <td>2018-09-24 19:10</td>
+                                    <td>2021-05-13 05:57</td>
                                     <td>100391</td>
-                                    <td>Camera C430W 4k</td>
-                                    <td class="text-right">$699.00</td>
-                                    <td class="text-right">1</td>
-                                    <td class="text-right">$699.00</td>
+                                    <td>Covid variant from India: How contagious is the new variant?</td>
+                                    <td class="text-right">Mary</td>
+                                    <td class="text-right">Health</td>
+                                    <td class="text-right">Covid-19</td>
                                 </tr>
                                 <tr>
-                                    <td>2018-09-22 00:43</td>
-                                    <td>100393</td>
-                                    <td>USB 3.0 Cable</td>
-                                    <td class="text-right">$10.00</td>
-                                    <td class="text-right">3</td>
-                                    <td class="text-right">$30.00</td>
+                                    <td>2021-05-12 05:55</td>
+                                    <td>100390</td>
+                                    <td>Acne: Beyond the Simple Pimple</td>
+                                    <td class="text-right">Sara</td>
+                                    <td class="text-right">Health</td>
+                                    <td class="text-right">Skincare</td>
                                 </tr>
+
                             </tbody>
                         </table>
                     </div>
                 </div>
                 <div class="col-lg-3">
-                    <h2 class="title-1 m-b-25">Top countries</h2>
+                    <h2 class="title-1 m-b-25">Top news</h2>
                     <div class="au-card au-card--bg-blue au-card-top-countries m-b-40">
                         <div class="au-card-inner">
                             <div class="table-responsive">
                                 <table class="table table-top-countries">
                                     <tbody>
                                         <tr>
-                                            <td>United States</td>
-                                            <td class="text-right">$119,366.96</td>
+                                            <td>Vietnam to buy 31 million Pfizer doses in second half of 2021</td>
+                                            <td class="text-right">19,366 readers</td>
                                         </tr>
                                         <tr>
-                                            <td>Australia</td>
-                                            <td class="text-right">$70,261.65</td>
+                                            <td>Vingroup to officially launch the region's leading "Sleepless City" model</td>
+                                            <td class="text-right">7,261 readers</td>
                                         </tr>
                                         <tr>
-                                            <td>United Kingdom</td>
-                                            <td class="text-right">$46,399.22</td>
+                                            <td>Machine learning (AI) accurately predicts cardiac arrest risk</td>
+                                            <td class="text-right">4,399 readers</td>
                                         </tr>
                                         <tr>
-                                            <td>Turkey</td>
-                                            <td class="text-right">$35,364.90</td>
+                                            <td>One cup of leafy green vegetables a day lowers risk of heart disease</td>
+                                            <td class="text-right">4,364 readers</td>
                                         </tr>
                                         <tr>
-                                            <td>Germany</td>
-                                            <td class="text-right">$20,366.96</td>
+                                            <td>Prince Harry compares life in the Royal Family to ‘living in a zoo’</td>
+                                            <td class="text-right">3,366 readers</td>
                                         </tr>
                                         <tr>
-                                            <td>France</td>
-                                            <td class="text-right">$10,366.96</td>
+                                            <td>Ta Lang Village, a new attractive destination of Quảng Nam</td>
+                                            <td class="text-right">3,364 readers</td>
                                         </tr>
                                         <tr>
-                                            <td>Australia</td>
-                                            <td class="text-right">$5,366.96</td>
+                                            <td>How Moisturizers, Cleansers, and Sunscreens Can Complement Acne Treatment</td>
+                                            <td class="text-right">2,366 readers</td>
                                         </tr>
                                         <tr>
-                                            <td>Italy</td>
-                                            <td class="text-right">$1639.32</td>
+                                            <td>My Tam becomes Vietnam’s first Billboard singer</td>
+                                            <td class="text-right">1639 readers</td>
                                         </tr>
+                                        
                                     </tbody>
                                 </table>
                             </div>
@@ -281,9 +148,9 @@
                 <div class="col-lg-6">
                     <div class="au-card au-card--no-shadow au-card--no-pad m-b-40">
                         <div class="au-card-title" style="background-image:url('../images/admin/bg-title-01.jpg');">
-                            <div class="bg-overlay bg-overlay--blue"></div>
+                            <div class="bg-overlay bg-overlay--white"></div>
                             <h3>
-                                <i class="zmdi zmdi-account-calendar"></i>26 April, 2018
+                                <i class="zmdi zmdi-account-calendar"></i>18 May, 2021
                             </h3>
                             <button class="au-btn-plus">
                                 <i class="zmdi zmdi-plus"></i>
@@ -291,13 +158,13 @@
                         </div>
                         <div class="au-task js-list-load">
                             <div class="au-task__title">
-                                <p>Tasks for John Doe</p>
+                                <p>Tasks for admin</p>
                             </div>
                             <div class="au-task-list js-scrollbar3">
                                 <div class="au-task__item au-task__item--danger">
                                     <div class="au-task__item-inner">
                                         <h5 class="task">
-                                            <a href="#">Meeting about plan for Admin Template 2018</a>
+                                            <a href="#">Meeting about plan for Admin team 2021</a>
                                         </h5>
                                         <span class="time">10:00 AM</span>
                                     </div>
@@ -313,7 +180,7 @@
                                 <div class="au-task__item au-task__item--primary">
                                     <div class="au-task__item-inner">
                                         <h5 class="task">
-                                            <a href="#">Meeting about plan for Admin Template 2018</a>
+                                            <a href="#">Meeting about plan for Admin team 2021</a>
                                         </h5>
                                         <span class="time">02:00 PM</span>
                                     </div>
@@ -329,7 +196,7 @@
                                 <div class="au-task__item au-task__item--danger js-load-item">
                                     <div class="au-task__item-inner">
                                         <h5 class="task">
-                                            <a href="#">Meeting about plan for Admin Template 2018</a>
+                                            <a href="#">Meeting about plan for Admin team 2021</a>
                                         </h5>
                                         <span class="time">10:00 AM</span>
                                     </div>
@@ -352,9 +219,9 @@
                 <div class="col-lg-6">
                     <div class="au-card au-card--no-shadow au-card--no-pad m-b-40">
                         <div class="au-card-title" style="background-image:url('../images/admin/bg-title-02.jpg');">
-                            <div class="bg-overlay bg-overlay--blue"></div>
+                            <div class="bg-overlay bg-overlay--white"></div>
                             <h3>
-                                <i class="zmdi zmdi-comment-text"></i>New Messages
+                                <i class="zmdi zmdi-comment-text"></i>New Comments
                             </h3>
                             <button class="au-btn-plus">
                                 <i class="zmdi zmdi-plus"></i>
@@ -362,13 +229,7 @@
                         </div>
                         <div class="au-inbox-wrap js-inbox-wrap">
                             <div class="au-message js-list-load">
-                                <div class="au-message__noti">
-                                    <p>You Have
-                                        <span>2</span>
-
-                                        new messages
-                                    </p>
-                                </div>
+                                
                                 <div class="au-message-list">
                                     <div class="au-message__item unread">
                                         <div class="au-message__item-inner">
@@ -380,7 +241,7 @@
                                                 </div>
                                                 <div class="text">
                                                     <h5 class="name">John Smith</h5>
-                                                    <p>Have sent a photo</p>
+                                                    <p>I love this news</p>
                                                 </div>
                                             </div>
                                             <div class="au-message__item-time">
@@ -398,7 +259,7 @@
                                                 </div>
                                                 <div class="text">
                                                     <h5 class="name">Nicholas Martinez</h5>
-                                                    <p>You are now connected on message</p>
+                                                    <p>Good</p>
                                                 </div>
                                             </div>
                                             <div class="au-message__item-time">
@@ -416,7 +277,7 @@
                                                 </div>
                                                 <div class="text">
                                                     <h5 class="name">Michelle Sims</h5>
-                                                    <p>Lorem ipsum dolor sit amet</p>
+                                                    <p>Interesting!</p>
                                                 </div>
                                             </div>
                                             <div class="au-message__item-time">
@@ -434,7 +295,7 @@
                                                 </div>
                                                 <div class="text">
                                                     <h5 class="name">Michelle Sims</h5>
-                                                    <p>Purus feugiat finibus</p>
+                                                    <p>Wow! So beautiful.</p>
                                                 </div>
                                             </div>
                                             <div class="au-message__item-time">
@@ -452,7 +313,7 @@
                                                 </div>
                                                 <div class="text">
                                                     <h5 class="name">Michelle Sims</h5>
-                                                    <p>Lorem ipsum dolor sit amet</p>
+                                                    <p>Win the pandemic</p>
                                                 </div>
                                             </div>
                                             <div class="au-message__item-time">
@@ -531,13 +392,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="copyright">
-                        <p>Copyright © 2018 Colorlib. All rights reserved. Template by <a href="https://colorlib.com">Colorlib</a>.</p>
-                    </div>
-                </div>
-            </div>
+            
         </div>
     </div>
 </div>

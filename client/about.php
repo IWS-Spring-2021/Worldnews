@@ -11,7 +11,7 @@
         <div class="row d-flex">
           <div class="col-md-6 d-flex">
             <div class="img img-video d-flex align-self-stretch align-items-center justify-content-center justify-content-md-end" style="background-image:url(images/about/team.jpg);">
-              <a href="https://www.youtube.com/watch?v=G7gHafQLJ0g" class="icon-video popup-vimeo d-flex justify-content-center align-items-center">
+              <a href="https://www.youtube.com/watch?v=eZBVN4XztJk" class="icon-video popup-vimeo d-flex justify-content-center align-items-center">
                 <span   class="icon-play"></span>
               </a>
             </div>
