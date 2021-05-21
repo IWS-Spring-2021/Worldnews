@@ -21,7 +21,7 @@ endforeach;
 $i = 0;
 ?>
 
-<div class="sidebar-box ftco-animate">
+<div class="sidebar-box ftco-animate" style="padding: 10px;">
     <h3>Related News</h3>
     <?php if ($news_arr[1]['id'] == null) {
         echo '<p style="font-size: 90%;"> OOps! No related news found!</p>';

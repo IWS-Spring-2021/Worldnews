@@ -17,5 +17,5 @@
     $response = curl_exec($curl);
     echo $data_string, $response;
     curl_close($curl);
-    // header("Location: http://localhost/worldnews/client/news_single.php?id={$news_id}&login_user={$login_user}");
+    header("Location: http://localhost/worldnews/client/news_single.php?id={$news_id}&login_user={$login_user}");
     ?>

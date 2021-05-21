@@ -18,7 +18,7 @@ $resultT = json_decode($responseT, true);
 <?php include('components/related_news.php') ?>
 
 <div class="sidebar-box ftco-animate">
-    <div class="categories">
+    <div class="categories" style="padding: 10px;">
         <h3>Categories</h3>
         <?php foreach ($resultC as $key => $value) : ?>
             <li><a href="category.php?id=<?php echo $value['id']; ?>"><?php echo $value['category'] ?><span class="ion-ios-arrow-forward"></span></a></li>
